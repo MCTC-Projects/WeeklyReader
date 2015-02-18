@@ -12,9 +12,8 @@ public class Main {
         System.out.println("Hello World from Group Project people!");
 
 
-
-        System.out.println(" what did I do??");
-        System.out.println(" Did this work?");
+        GoodReadsResponse grr = new GoodReadsResponse("Great Expectations","Charles Dickens");
+        grr.populateFromAPI();
 
         String s[];
 
